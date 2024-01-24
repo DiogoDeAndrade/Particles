@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<level>
+	<map sx="32" sy="24">
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>#......#a#.#c#.#e#.#g#.#i#.....#</line>
+		<line>#..............................#</line>
+		<line>#..S...........................#</line>
+		<line>#..............................#</line>
+		<line>#..............................#</line>
+		<line>#......#.#b#.#d#.#f#.#h#.#.....#</line>
+		<line>###########################...##</line>
+		<line>##########################.....#</line>
+		<line>##########################.....#</line>
+		<line>##########################..X..#</line>
+		<line>##########################.....#</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+	</map>
+	<element id="a" type="block" start_time="0" interval="1000" speed="150"/>
+	<element id="b" type="block" start_time="0" interval="1000" speed="150"/>
+	<element id="c" type="block" start_time="0" interval="2000" speed="150"/>
+	<element id="d" type="block" start_time="0" interval="2000" speed="150"/>
+	<element id="e" type="block" start_time="0" interval="3000" speed="150"/>
+	<element id="f" type="block" start_time="0" interval="3000" speed="150"/>
+	<element id="g" type="block" start_time="0" interval="4000" speed="150"/>
+	<element id="h" type="block" start_time="0" interval="4000" speed="150"/>
+	<element id="i" type="block" start_time="0" interval="5000" speed="150"/>
+</level>

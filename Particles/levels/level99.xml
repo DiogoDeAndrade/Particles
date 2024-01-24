@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<level theme="potato">
+	<map sx="32" sy="24">
+		<line>################################</line>
+		<line>#........#..k.#...#..i.#.......#</line>
+		<line>##.............................#</line>
+		<line>#...S.........................##</line>
+		<line>##.............................#</line>
+		<line>#.......#...#...j...#..........#</line>
+		<line>########################......h#</line>
+		<line>#.........#........f#.........##</line>
+		<line>##.............................#</line>
+		<line>#.............................##</line>
+		<line>#o.........#e.....#......g#....#</line>
+		<line>##......########################</line>
+		<line>#..........#...#....#...l#.....#</line>
+		<line>#.........##...................#</line>
+		<line>##........d#..................##</line>
+		<line>#..........##.................m#</line>
+		<line>#..........#c........#.........#</line>
+		<line>##........##......#######...####</line>
+		<line>#..........#......#............#</line>
+		<line>##.........#......#............#</line>
+		<line>#................##.......X....#</line>
+		<line>#.................#............#</line>
+		<line>#..#a.#b....#.n...#............#</line>
+		<line>################################</line>
+	</map>
+	<element id="a" type="block" color="1" start_time="0" interval="0" speed="150" random="true"/>
+	<element id="b" type="block" color="2" start_time="0" interval="0" speed="200" random="true"/>
+	<element id="c" type="block" color="3" start_time="0" interval="0" speed="150" random="true"/>
+	<element id="d" type="block" color="1" start_time="0" interval="0" speed="250" random="true"/>
+	<element id="e" type="block" color="2" start_time="0" interval="0" speed="150" random="true"/>
+	<element id="f" type="block" color="3" start_time="0" interval="0" speed="200" random="true"/>
+	<element id="g" type="block" color="1" start_time="0" interval="0" speed="150" random="true"/>
+	<element id="h" type="block" color="2" start_time="0" interval="0" speed="200" random="true"/>
+	<element id="i" type="block" color="3" start_time="0" interval="0" speed="150" random="true"/>
+	<element id="j" type="block" color="1" start_time="0" interval="0" speed="250" random="true"/>
+	<element id="k" type="block" color="2" start_time="0" interval="0" speed="150" random="true"/>
+	<element id="l" type="block" color="3" start_time="0" interval="0" speed="200" random="true"/>
+	<element id="m" type="block" color="1" start_time="0" interval="0" speed="150" random="true"/>
+	<element id="n" type="block" color="2" start_time="0" interval="0" speed="200" random="true"/>
+	<element id="o" type="block" color="3" start_time="0" interval="0" speed="150" random="true"/>
+</level>

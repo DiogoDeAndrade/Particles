@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<level>
+	<map sx="32" sy="24">
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>###..........................###</line>
+		<line>###..........................###</line>
+		<line>###..S.......................###</line>
+		<line>###..........................###</line>
+		<line>###..........................###</line>
+		<line>###..........................###</line>
+		<line>###..........................###</line>
+		<line>###..........................###</line>
+		<line>###..........................###</line>
+		<line>###..........................###</line>
+		<line>###..........................###</line>
+		<line>###.......................X..###</line>
+		<line>###..........................###</line>
+		<line>###..........................###</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+	</map>
+	<tutorial x=512 y=384>Welcome to &quot;Particles&quot;!</tutorial>
+	<tutorial x=212 y=320>The objective in this\ngame is to lead the particles...</tutorial>
+	<tutorial x=762 y=450>...onto the target area.</tutorial>
+	<tutorial x=512 y=384>The particles always\nfollow the mouse cursor...</tutorial>
+	<tutorial x=512 y=384>Try it out!</tutorial>
+</level>

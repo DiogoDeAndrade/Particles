@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2A7CA0F4-D185-4185-8A67-A9D62BBD6D6B}</ProjectGuid>
+    <RootNamespace>Framework</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(VCInstallDir)PlatformSDK\include;D:\sdk\directx\Include;D:\sdk\fmod\api\inc;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;D:\sdk\lua\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(VCInstallDir)PlatformSDK\lib;D:\sdk\directx\Lib\x86;D:\sdk\fmod\api\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;D:\sdk\lua\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BlitManager.cpp" />
+    <ClCompile Include="BlitManager3d.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Defs.cpp" />
+    <ClCompile Include="Drawable.cpp" />
+    <ClCompile Include="Gfx.cpp" />
+    <ClCompile Include="Image_A8R8G8B8.cpp" />
+    <ClCompile Include="ImageScreen.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MathLib.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="MouseCursor.cpp" />
+    <ClCompile Include="Object3d.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="ParticleSystem3d.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Sprite3d.cpp" />
+    <ClCompile Include="TextObj.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Tilemap3d.cpp" />
+    <ClCompile Include="Timers.cpp" />
+    <ClCompile Include="Tokenizer.cpp" />
+    <ClCompile Include="XML.cpp" />
+    <ClCompile Include="dx\d3denumeration.cpp" />
+    <ClCompile Include="dx\d3dsettings.cpp" />
+    <ClCompile Include="dx\d3dutil.cpp" />
+    <ClCompile Include="dx\dxutil.cpp" />
+    <ClCompile Include="lua\LUAArray.cpp" />
+    <ClCompile Include="lua\LUAEnv.cpp" />
+    <ClCompile Include="lua\LUAHelpers.cpp" />
+    <ClCompile Include="lua\LUAMain.cpp" />
+    <ClCompile Include="lua\LUAScript.cpp" />
+    <ClCompile Include="lua\LUATable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlitManager.h" />
+    <ClInclude Include="BlitManager3d.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Defs.h" />
+    <ClInclude Include="Drawable.h" />
+    <ClInclude Include="Gfx.h" />
+    <ClInclude Include="Image_A8R8G8B8.h" />
+    <ClInclude Include="ImageScreen.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="MathLib.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="MouseCursor.h" />
+    <ClInclude Include="Object3d.h" />
+    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="ParticleSystem3d.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="Sprite3d.h" />
+    <ClInclude Include="TextObj.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Tilemap3d.h" />
+    <ClInclude Include="Timers.h" />
+    <ClInclude Include="Tokenizer.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="XML.h" />
+    <ClInclude Include="dx\d3denumeration.h" />
+    <ClInclude Include="dx\d3dres.h" />
+    <ClInclude Include="dx\d3dsettings.h" />
+    <ClInclude Include="dx\d3dutil.h" />
+    <ClInclude Include="dx\dxutil.h" />
+    <ClInclude Include="lua\LUAArray.h" />
+    <ClInclude Include="lua\LUAEnv.h" />
+    <ClInclude Include="lua\LUAHelpers.h" />
+    <ClInclude Include="lua\LUAMain.h" />
+    <ClInclude Include="lua\LUAScript.h" />
+    <ClInclude Include="lua\LUATable.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<level>
+	<map sx="32" sy="24">
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>###...........#a#............###</line>
+		<line>###..........................###</line>
+		<line>###..S.......................###</line>
+		<line>###..........................###</line>
+		<line>###...........#.#............###</line>
+		<line>###...........########...#######</line>
+		<line>#####################b....######</line>
+		<line>###...........########...#######</line>
+		<line>###...........#######c....######</line>
+		<line>###..X........########...#######</line>
+		<line>###...........#d#............###</line>
+		<line>###..........................###</line>
+		<line>###..........................###</line>
+		<line>###...........#.#............###</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+		<line>################################</line>
+	</map>
+	<element id="a" type="block" start_time="2000" interval="2000" speed="150"/>
+	<element id="b" type="block" start_time="0" interval="0" speed="50"/>
+	<element id="c" type="block" start_time="1000" interval="0" speed="50"/>
+	<element id="d" type="block" start_time="2000" interval="2000" speed="50"/>
+	<tutorial x=760 y=184>The lighter blocks move around, but\nthey behave like the static walls,\nso don't touch them!</tutorial>
+	<tutorial x=512 y=384>Use their timmings in your favor!</tutorial>
+</level>

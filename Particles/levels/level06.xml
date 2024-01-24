@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<level>
+	<map sx="32" sy="24">
+		<line>################################</line>
+		<line>################################</line>
+		<line>###########...........##########</line>
+		<line>###########.....X.....##########</line>
+		<line>###########...........##########</line>
+		<line>###########...........##########</line>
+		<line>###########....e......##########</line>
+		<line>###########...........##########</line>
+		<line>###########...........##########</line>
+		<line>###########......d....##########</line>
+		<line>###########...........##########</line>
+		<line>###########...........##########</line>
+		<line>###########....c......##########</line>
+		<line>###########...........##########</line>
+		<line>###########...........##########</line>
+		<line>###########......bf...##########</line>
+		<line>###########...........##########</line>
+		<line>###########...........##########</line>
+		<line>###########...a.......##########</line>
+		<line>###########...........##########</line>
+		<line>###########......S....##########</line>
+		<line>###########...........##########</line>
+		<line>################################</line>
+		<line>################################</line>
+	</map>
+	<element id="a" type="attractor" color="3" strength="-4.0" range="70"/>
+	<element id="b" type="attractor" color="3" strength="-4.0" range="70"/>
+	<element id="c" type="attractor" color="3" strength="-4.0" range="70"/>
+	<element id="d" type="attractor" color="3" strength="-4.0" range="70"/>
+	<element id="e" type="attractor" color="3" strength="-4.0" range="70"/>
+	<element id="f" type="attractor" color="3" strength="-4.0" range="70"/>
+	<spawn>
+      <color>3</color>
+	</spawn>
+	<tutorial x=512 y=384>Here, we introduce magnets!</tutorial>
+	<tutorial x=512 y=384>Particles near magnets get repulsed.</tutorial>
+	<tutorial x=512 y=384>The severity of this effect\ndepends on the magnet.</tutorial>
+	<tutorial x=512 y=384>Magnets can affect all\ncolors or just one.</tutorial>
+</level>

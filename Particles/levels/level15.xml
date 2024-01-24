@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<level>
+	<map sx="32" sy="24">
+		<line>################################</line>
+		<line>#........#.#...................#</line>
+		<line>#....................g.....h...#</line>
+		<line>#...S..........................#</line>
+		<line>#........#a##....###...###...###</line>
+		<line>############b.....#c....#d....##</line>
+		<line>#........####....###111###333###</line>
+		<line>#................#......#......#</line>
+		<line>#................#...i..#......#</line>
+		<line>#####....#########.....##......#</line>
+		<line>#####.....#k............#......#</line>
+		<line>#######...##...........##......#</line>
+		<line>#######....####.........#......#</line>
+		<line>########.....##.........#......#</line>
+		<line>#######......j#.........#......#</line>
+		<line>#########....##...########...###</line>
+		<line>#####e........#................#</line>
+		<line>######.......##................#</line>
+		<line>#####f........#................#</line>
+		<line>######.......##................#</line>
+		<line>#.............2................#</line>
+		<line>#.........l...2............X...#</line>
+		<line>#.............2................#</line>
+		<line>################################</line>
+	</map>
+	<element id="a" type="block" start_time="0" interval="1000" speed="150"/>
+	<element id="b" type="block" start_time="0" interval="0" speed="200"/>
+	<element id="c" type="block" start_time="0" interval="1000" speed="100"/>
+	<element id="d" type="block" start_time="0" interval="1000" speed="100"/>
+	<element id="e" type="block" start_time="0" interval="0" speed="350"/>
+	<element id="f" type="block" start_time="1000" interval="0" speed="350"/>
+	<element id="g" type="floor" color="1" duration="3000"/>
+	<element id="i" type="floor" color="1" duration="3000"/>
+	<element id="h" type="floor" color="3" duration="3000"/>
+	<element id="j" type="block" start_time="0" interval="0" speed="200"/>
+	<element id="k" type="block" start_time="0" interval="0" speed="400"/>
+	<element id="l" type="floor" color="2" duration="3000"/>
+	<spawn>
+      <color>1</color>
+      <color>2</color>
+      <color>3</color>
+	</spawn>
+</level>

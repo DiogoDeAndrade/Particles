@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<level>
+	<map sx="32" sy="24">
+		<line>################################</line>
+		<line>################################</line>
+		<line>##.........#...........22222####</line>
+		<line>##.........2...........22222####</line>
+		<line>##..S......2...........##222####</line>
+		<line>##.........2...........###2222##</line>
+		<line>####....####...........####222##</line>
+		<line>##.........#...........###2222##</line>
+		<line>##.........#..#111#######222####</line>
+		<line>##.........####111##..........##</line>
+		<line>####....#######111##..........##</line>
+		<line>##.........1..................##</line>
+		<line>##...a.....1.............b....##</line>
+		<line>##.........1..................##</line>
+		<line>###############1111###2222######</line>
+		<line>##............................##</line>
+		<line>##............................##</line>
+		<line>##............................##</line>
+		<line>##............................##</line>
+		<line>##............................##</line>
+		<line>##..............X.............##</line>
+		<line>##............................##</line>
+		<line>################################</line>
+		<line>################################</line>
+	</map>
+	<element id="a" type="floor" color="2" duration="40000"/>
+	<element id="b" type="floor" color="1" duration="20000"/>
+	<spawn>
+      <color>1</color>
+      <color>2</color>
+	</spawn>
+	<tutorial x=512 y=384>Normally, the mosue cursor attracts\nparticles of all colors.</tutorial>
+	<tutorial x=212 y=490>But if you pass the cursor\nthrough this floor\npanel, it will start attracting\nonly the green particles.</tutorial>
+	<tutorial x=812 y=480>On the other hand, if you pass\nthrough this one, it will\nonly attract the red ones.</tutorial>
+	<tutorial x=512 y=384>All other particles that aren't\nattracted will stand still...</tutorial>
+	<tutorial x=512 y=384>But note that this doesn't last\nforever... when the time on it\nfinishes, all particles will be\nattracted again!</tutorial>
+</level>

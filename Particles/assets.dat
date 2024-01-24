@@ -1,0 +1,14 @@
+texture mouse_cursor assets/mouse_cursor.dds
+texture attractor_pos assets/attractor_pos.dds
+texture attractor_neg assets/attractor_neg.dds
+texture floor_field assets/floor_field.dds
+texture title assets/title.jpg
+texture endgame1 assets/endgame1.jpg
+texture endgame2 assets/endgame2.jpg
+texture potato assets/potato.dds
+sound music assets/ost.mp3 true true
+sound hover assets/hover.wav false false
+sound select assets/select.wav false false
+sound tick assets/tick.wav false false
+sound boom assets/boom.wav false false
+sound yeah assets/yeah.wav false false

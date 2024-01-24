@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options colorblind="true" tutorial="true" music="true" sound="true">
+	<progress current_level=4 highscore=8468 retries=0>
+		<gold_level level=1/>
+		<gold_level level=2/>
+		<gold_level level=3/>
+		<gold_level level=4/>
+		<gold_level level=6/>
+		<gold_level level=12/>
+	</progress>
+</options>
